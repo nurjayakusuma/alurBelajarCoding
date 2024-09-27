@@ -1,0 +1,20 @@
+#position!
+ "merupakan attribute yang digunakan untuk mengatur posisi diperlukan bila hendak tanpa mempengaruh elemen lain di sekitarnya
+
+* position value :
+- static = value default dari sebuah elemen
+- relative = elemen akan maju 1 dimensi dari elemen lainya namun posisi elemen sebelumnya masih ada
+- absolute = elemen akan maju berpindah 1 dimensi, dan posisi sebelumnya akan hilang dianggap tidak ada
+- fixed = elemen dengan value posisi fixed akan terkunci posisi nya, tidak berpindah meskipun discroll
+
+""css position
+* static adalah nilai default dari setiap elemen Ketika tidak diberi property position
+* menggunakan position selain static (non-static)
+* elemen yang diberi position selain static dapat menggunakan property top, left, bottom dan right untuk mengatur posisinya
+
+# value relative :
+- Ketika kita menggerakan elemen dengan posisi raltive (menggunakan property top, left, bottom dan right), ruang yang ditempati oleh elemen tersebut masih ada
+- Ketika kita menggerakan elemen dengan posisi relative, elemen akan bergerak secara relative terhadap posisi semula-nya
+- jika kita memberi property top: 0; dan left: 0; maka elemen tidak berubah posisinya 
+
+"" tinkercad.com : untuk membuat presentasi ilustrasi 3 dimensi

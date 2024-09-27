@@ -1,0 +1,23 @@
+#image! 
+
+tag image <img> dengan attribute src="" dengan value image.
+
+* contoh tag img :
+
+<img src="image.png">
+
+* ada dua pilihan link img :
+- internal resource : gambar yang tersimpan pada penyimpanan internal / asset
+- external resource : gambar yang tersimpan pada website yang berbeda (http://www.google.com/srpr/gambar.png)
+
+* <img> attribute :
+- src = untuk memanggil image
+- alt = sebagai alternatif pengalihan jika terjadi bug pada image
+- title = memberikan judul pada image
+- width = untuk mengatur lebar image, memiliki satuan px / %
+- height = untuk mengatur tinggi image, px / %
+
+* image link, menghubungkan gambar pada link :
+<a href="http://www.google.com"> <img src="image.png"> </a>
+
+

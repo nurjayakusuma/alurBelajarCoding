@@ -1,0 +1,26 @@
+# margin!
+
+- margin = untuk mengatur margin
+- margin-top = untuk mengatur margin bagaian atas
+- margin-right = untuk mengatur margin bagian kanan
+- margin- bottom = untuk mengatur magin bagian Bawah
+- margin-left = untuk mengatur margin bagian kiri
+
+* div { margin-top: 30px; }
+* shorthand = div { margin: 0px 0px 0px 0px } 
+
+#overlapping margin!
+- margin block = ""sebuah margin tidak memiliki dimensi & margin tidak dapat saling tumpu 1 dengan lainya, margin hanya bereaksi terhadap content
+
+- margin inline = secara default memberikan margin di setiap sisi content, untuk menghilangkan margin dapat dengan menghilangkan "sepasi" atau "enter" pada di setiap tag. ""untuk margin inline itu sendiri dapat ditambahkan dengan margin content lainya
+
+#negative-margin!
+""dimana margin memiliki value negative akan bergerak kearah berlawanan
+
+* div { margin-top: -50px; }
+
+
+#margin auto!
+- secara otomatis content akan menyesuaikan terhadap content lainya, berlaku untuk margin "left" & "right"
+
+* div { margin-left: auto; margin-right: auto; }

@@ -1,0 +1,16 @@
+#dimensi!
+* width & height"
+
+"" satuan dimensi
+- px
+- %
+- in, cm, mm, pt, pc
+
+# overflow!
+
+* value :
+- visible = default
+- auto = css akan otomatis menambah scroll pada content jika content melebihi elemen pembungkusnya
+- hidden = content yang over dari elemen pembungkusnya akan di sembunyikan
+- scroll = css akan memberikan scroll pada content, meski content tidak memenuhi element pembungkusnya
+

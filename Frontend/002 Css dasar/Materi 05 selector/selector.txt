@@ -1,0 +1,43 @@
+# selector! 
+  digunakan pada css untuk mengenali sebuah element html yang akan diberi style. 
+by:http://www.w3school.com/cssref/css_selector.asp
+
+* selector attribute :
+
+- element html = selector yang dipanggil menggunakan element html
+- id
+- class
+- complex selector
+
+# element html 
+
+* contoh :
+
+- h1 { color: white; }
+
+"" gruping selector : dapat menambahkan oprator "," disetiap selector yang akan di tambahkan.
+
+* contoh :
+
+- h1,h2 { color: white; }
+
+"" Detailing selector : mengurutkan selector pembungkus
+
+* contoh :
+
+- ul li a { color: red; }
+
+# id selector = operator "#"
+
+* contoh :
+
+- <p id="p1">lorem ipsum</p>
+- #p1 { color: red; }
+
+# class = operator "."
+
+* contoh :
+
+- <p class="p1">lorem ipsum</p>
+- .p1 { color: white; }
+

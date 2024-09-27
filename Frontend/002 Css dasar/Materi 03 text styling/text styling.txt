@@ -1,0 +1,78 @@
+# text styling! : memberikan style pada text.
+
+* attribute text styling :
+
+- color = untuk memberikan warna
+- text-align = untuk mengatur format paragraph
+- text-indent = untuk memberi indentasi pada text / paragraph
+- text-decoration = untuk mengatur dekorasi pada text / paragraph
+- text-transform = untukmengubah jenis huruf menjadi besar, kecil/ kapital
+- letter-spacing = untuk mengatur spasi antar huruf
+- word-spacing = mengatur spasi antar kata
+
+# color = value : nama warna, hexadecimal, rgb
+
+- nama warna = red, lihtblue, royalblue
+- hexadecimal = #ff0000, #000000, #ffffff
+- rgb = rgb(225,0,0), rgb (65,107,332)
+
+* contoh : 
+  
+- h1 { color : red; }
+
+"" untuk nama/satuan warna dapat menggunakan bantuan figma.com - UI/UX Design / photoshop / colorpicker.com
+
+
+# text-align = value : left, tight, center & justify
+
+- left = untuk rata kiri
+- right = untuk rata kanan
+- center = untuk rata tengah
+- justify = untuk rata kanan kiri
+
+* contoh :
+
+- h1 { text-align: left; }
+
+
+# text-indent = value : px & %
+
+* contoh :
+
+- p { text-indent: 50px; }
+
+# text-decoration = value : none, underline, overline & line-through
+
+- none = untuk menghilangkan garis pada text
+- underline = untuk membuat garis Bawah pada text
+- overline = untuk membuat garis diatas text
+- line-through = untuk membuat garis ditengah text / mencoret
+
+* contoh :
+
+- h1 { text-decoration: underline; }
+
+# text-transform = value : none, lowercase, uppercase & capitalize
+
+- lowercase = untuk membuat font menjadi kecil semua
+- uppercase = untuk membuat font menjadi besar semua
+- capitalize = untuk membuat font menjadi kapital
+
+* contoh :
+
+- h1 { text-transform: capitalize;  }
+
+# letter-sapcing = value : px
+
+* contoh :
+
+- p { letter-sapcing: 20px; }
+
+# word-spapacing = value : px
+
+* contoh :
+
+- p { word-sapcing: 20px; }
+
+
+ 

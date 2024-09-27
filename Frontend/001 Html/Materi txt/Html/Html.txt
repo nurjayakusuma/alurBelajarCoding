@@ -1,0 +1,7 @@
+HTML = Hyper Text Markup Language
+Penemu html (Tim Berners-Lee), merupakan pimpinan organisasi w3c = World Wide Web Consortium http://www.w3.org.
+
+html = strucktur dasar website
+css = style/modeling website
+js = intraktive website
+

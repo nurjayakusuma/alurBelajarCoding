@@ -1,0 +1,17 @@
+#paragraf pada tag html :
+
+<p>ini adalah paragraf</p> = untuk membuat paragraf
+<br> = untuk menambahkan baris baru
+<hr> = untuk menambah garis hizontal
+
+*tag pendukung :
+
+<b> = untuk membuat text menjadi bolt
+<i> = untuk membuat text menjadi italic
+<u> = untuk menambah underline pada text
+
+*tag penekanan pada text :
+<strong></strong> & <em></em> 
+
+- <em> = emphesise/menekankan
+- <strong> = menekankan lebih kuat

@@ -1,0 +1,8 @@
+# inheritance! 
+merupakan sebuah elemen mewarisi beberapa nilai dari property yang  dimiliki oleh elemen pembungkus / parent-nya
+
+by.http://www.w3.org/TR/CSS21/cascade.html#inheritance
+
+# value inheritance implementation :
+
+* a { color: inherit; }

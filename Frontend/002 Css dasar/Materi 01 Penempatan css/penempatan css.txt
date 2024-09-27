@@ -1,0 +1,12 @@
+#penempatan css!
+
+*3 metode penempatan css :
+
+- embed.
+  <style></style> = menempatkan tag style pada bagian head pada syntax html.
+
+- inline
+  <h1 style="color: blue;">...</h1> = menempatkan style menggunakan attribute style pada baris tag html.
+
+- external
+  <link rel="stylesheet" href="style.css"> = menempatkan style css pada file css secara terpisah, dan diimplementasikan menggunakan tag <link> html.

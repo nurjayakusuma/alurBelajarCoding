@@ -1,0 +1,40 @@
+#Hyper Link
+
+*tag link <a> dengan attribute href=""
+
+* contoh link external :
+
+<a href="http://www.google.com"> link </a>
+
+* contoh link internal
+
+<a href="index.html">link</a>
+
+#link relative, merupakan link yang berada pada folder/direktori yang berbeda, namun folder/direktori tersebut masih berada pada folder/direktori yang sama, maka :
+
+* contok link relative url :
+
+<a href="folder/index.html">link</a>
+
+* Contoh relative url ../ untuk naik satu folder :
+
+<a href="../folder/index.html">link</a>
+
+# page anchor, merupan penanda untuk bagian yang kita beri tanda id="", ditunjukan untuk mengakses bagian tertentu secara langsung pada satu halaman .
+
+* contoh page anchor :
+
+<a href="#bagian 1">bagian 1</a>
+
+<h1 id="bagian 1">bagian 1</h1>
+ 
+atau <a href="page anchor.html#bagian 1"> link </a>
+
+# attribute targer="" digunakan untuk memberi pilihan akses untuk membuga tab/halaman baru atau tetap di halaman yang sama
+
+* <a target=""></a> dan memiliki value :
+
+- _self = untuk membuka link di tab yang sama.
+- _blank = untuk membuka link di tab baru.
+
+

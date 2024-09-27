@@ -1,0 +1,18 @@
+#CSS! (cascanding style sheet) :
+- mekanisme sederhana yang mengatur gaya/ style (cth: font, color, image dll) pada halaman web.
+
+by:http://wwww.w3.org/style/CSS
+
+www.csszengarden.com
+
+#anatomy css! : 
+
+* selector { atribute: value; } = h1 { color: blue; } 
+
+lebih dari satu atribute : - h1 { 
+				font-family: arial;
+				text-align: center;
+				font-size: 30px;
+				color: blue;
+				 }
+"ada 350++ atribut css, dan dapat dipelajari salah satunya di link http://css-trick.com/almanac

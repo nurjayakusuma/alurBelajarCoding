@@ -1,0 +1,54 @@
+#font styling! : mengatur gaya, jenis, ukuran & warna pada font.
+
+* font style attribute :
+
+- font-family = untuk mengatur jenis font.
+- font-size = untuk mengatur ukuran font.
+- font-weight = untuk mengatur ketebalan font.
+- font-variant = untuk mengubah font menjadi small caps.
+- font-style = untuk mengubah font menjadi bercetak miring.
+- line-height = untuk mengatur spasi antar baris
+
+* attribute fungtion :
+
+# font-family = value : nama font, generic family
+
+  - h1 { font-family: arial,verdana, sans-serif; }
+
+  - p { font-family: "times new roman", serif; }
+  
+  + serif = font yang memiliki kaki.
+  + sans-serif = font yang tidak memiliki kaki.
+
+
+# font-size = satuan value : px, %, em.
+
+  - h1 { font-size: 100px; }
+
+# font-weight = value : lighter, normal, 100-900, bold, bolder.
+
+  - h1 { font-weight: bold; }
+
+# font-variant = value : nolmal, small-caps
+
+  - h1 { font-variant:small-caps; }
+
+# font-style = value : normal, italic, oblique
+
+  - h1 { font-style: italic; }
+
+# line-height = value : nolmal, px, em
+
+  - p { line-height: 100px;  }
+
+
+"" shorthand attribute font! : 
+
+* h1 { font: font-style font-varian font-weight font-size line-height font-family; } 
+
+* contoh :
+
+  h1 { font: italic nolmal bold 16px arial, sans-serif; }
+
+
+

@@ -1,0 +1,13 @@
+# Materi 04 Heading :
+
+<h1>-<h6>
+
+H1 = Merupkan text heading paling besar, dan dilanjutkan dengan ukuran menurun berikutnya, semakin besar angka heading semakin kecil ukuran font text heading
+
+*tag heading
+- h1
+- h2
+- h3
+- h4
+- h5
+- h6

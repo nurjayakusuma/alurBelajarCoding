@@ -1,0 +1,28 @@
+#Form! tag untuk membuat form :
+
+<form></form> = tag pembungkus dalam form.
+
+* elemen - elemen tag pada form :
+
+- label = untuk membuat label.
+- input = untuk user dapat menginputkan sesuatu.
+- textarea = untuk membuat input text yang lebih banyak.
+- select = untuk membuat dropdown/ combobox.
+- button = untuk membuat button.
+
+
+* tag input - attribute :
+
+- type = untuk mengatur inputan sebagai apa.
+- name = untuk mengkelompokan jenis inputan.
+
+* attribute type value :
+
+- text = untuk membuat input text
+- password = untuk membuat input password ****
+- radio = untuk membuat radio button (pemilihan jenis kelamin)
+- checkbox = untuk membuat select button yang lebih banyak pilihan (hobi).
+- submit = untuk membuat button submit
+- reset = untuk membuat buton reset
+- button = untuk membuat button
+

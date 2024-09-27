@@ -1,0 +1,78 @@
+TAG HTML!
+
+tag merupan bagian elemen pada bahasa pemrograman, tag terdiri dari elemen pembungkus dan didalamnya terdapat perintah untuk menjalankan perintah, contoh tag <html> content </html>
+
+<title></title> = judul halaman
+<style></style> = css
+<script></script> = java script
+<meta></meta> = meta data
+
+contoh Tag pada head!
+
+<head>
+
+#Meta data, Peran meta data untuk mendeskripsikan website yang kita miliki.
+
+	<meta charset="UTF-8">
+	<meta name="description" content="kuliah pemrograman web">
+	<meta name="author" content="Nurjaya kusuma">
+
+</head>
+
+tag pada body!
+
+<body> = bagian isi pada website
+	#teks
+	<h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p> ...
+	
+	#pendukung teks
+	<br>, <hr>, <em>, <strong>, ...
+
+	#gambar
+	<img>
+
+	#hyperlink
+	<a>
+
+	#list (bullets & numbering)
+	<ul>, <ol>, <li>, <dl>, <dd> ...
+
+	#table
+	<table>, <thead>, <tbody>, ...
+
+	#form
+	<form>, <input>, <select>, <button>, ...
+
+	#script
+	<script>
+
+	#object
+	<object>
+
+	#grouping
+	<div>, <span>, ...
+	
+	#komentar
+	<!-- comentar -->
+
+</body>
+
+#Contoh stuktur pada tag html 
+
+<namatag atribute="nilai"> / <body bgcolor="lightblue">
+
+* tag boleh tidak / memiliki lebih dari 1 atribute, contoh = <body bgcolor="lightblue" id="myid" class="myclass">
+
+* contoh atribute :
+- accesskey
+- class
+- id
+- dir
+- lang
+- style
+- tabindex
+- title
+
+* atribute lebih lengkap - www.w3school.com/tag
+
+

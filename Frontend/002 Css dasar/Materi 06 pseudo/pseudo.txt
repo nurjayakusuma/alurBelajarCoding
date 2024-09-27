@@ -1,0 +1,24 @@
+#pseudo-class! 
+merupakan semu yang dimiliki oleh sebuah elemen html, yang membuat kita dapat mendefinisikan style pada "keadaan tertentu" dari elemen tersebut
+
+* attribute pseudo-class :
+
+- link = style default pada sebuah link 
+- hover = style Ketika kursor berada pada sebuah link / elemen
+- active = style Ketika sebuah link di-klick (keadaan aktif)
+- visited = style Ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama)
+
+* implementasi :
+
+- .Button:hover { color: blue; }
+
+#pseudo-class child!
+
+* attribute child :
+
+- first-child = Anak pertama dari sebuah elemen pembungkus
+- last-child = Anak terakhir dari sebuah elemen pembungkus
+- nth-child = memilih elemen ke-n dari elemen pembungkusnya (parent). "n" bisa urutan 1,2.. atau pola 2n, 3n+2, 4n-1. atau ganjil "even" dan genap "odd"
+
+- first-of-type = memilih elemen pertama dari sebuah jenis/ tipe tag
+- last-of-type = memilih elemen terakhir dari sebuah jenis/ tipe tag

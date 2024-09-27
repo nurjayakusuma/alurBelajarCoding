@@ -1,0 +1,6 @@
+#Table Merging!
+
+* <table></table> attribute :
+
+- colspan = untuk menggabungkan 2 kolom horizontal
+- rowspan = untuk menggabungkan 2 baris vertikal

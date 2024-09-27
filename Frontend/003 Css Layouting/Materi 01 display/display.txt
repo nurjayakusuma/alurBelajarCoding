@@ -1,0 +1,55 @@
+# display!
+
+* tag <div> & <span>
+
+""tag pada html digunakan untuk memberikan 'maksud' / arti pada sebuah konten ( "p" untuk membuat paragraph, "h1" untuk heading Utama dll).
+
+* tag <div> & <span> tidak memiliki 'arti' apapun, keduanya digunakan untuk mengelompokan tag-tag html dan memberikan informasi terhadap tag-tag tersebut.
+
+* property display :
+
+- <div> = block; : div { display: block; }
+- <span> = inline; : div { display: inline; }
+
+""setiap tag html berada di dalam sebuah kotak. property display pada css mengatur prilaku dari kotak tersebut.
+
+by.http://css-trick.com/almanac/properties/d/display/
+
+""setiap tag pada html memiliki nilai default untuk property display. tetapi kita juga dapat mengubah prilaku dari tag tersebut dengan mengganti value-nya.
+
+by.http://developer.mozilla.org/en-US/doc/Web/CSS/display
+
+* display value :
+
+- inline = 
+" elemen html yang secara default tidak menambah baris baru Ketika dibuat
+" lebar dan tinggi elemennya sebesar konten yang ada di dalamnya
+" kita tidak dapat mengatur tinggi dan lebar dari elemen inline
+" margin dan padding hanya mempengaruhi elemen secara horizontal, tidak vertikal
+
+- a { display: inline; }
+
+@ elemen inline : b, strong, I, em, a, span, input, label, select, textarea,
+
+- inline-block = 
+" tidak ada elemen yang secara default memiliki property display: inline-block
+" kita harus mengubah secara manual properti tersebut
+" prilaku dasarnya sama dengan elemen inline
+" perbedaannya, elemen inline-block dapat kita atur tinggi dan lebar-nya
+
+- a { display: inline-block; }
+
+- block = 
+" elemen html yang secara default menambahkan baris baru Ketika dibuat
+" jika tidak di atur lebarnya, maka default dari elemen block akan memenuhi lebar dari browser/parent nya
+" kita dapat mengatur tinggi dan lebar dari elemen block
+" di dalam elemen block, kita dapat menyimpan tag degan elemen inline, inline-block, atau bahkan elemen block lagi
+
+- a { display: block; }
+
+@ elemen block : h1-h6, p, ol, ul, li, form, hr, div, …
+
+
+- none = menghilangkan display
+
+- a { display: none; }

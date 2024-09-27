@@ -1,0 +1,63 @@
+#tabel!
+
+* struktur table :
+- baris horizontal dari kanan ke kiri kita sebut baris.
+- baris vertikal dari atas ke Bawah kita sebut kolom.
+- bagian kolom kotak pada table kita sebut cell/data
+
+* struktur table komplek, jika terdapat header dibagian baik atas mau pun samping.
+
+* tag untuk membuat table sederhana <table> :
+- <table> = table pembungkus
+- <tr> = table row / baris
+- <td> = table data / kolom
+
+* contoh table sederhana :
+
+<table>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+</table>
+
+** table kompleks :
+
+<thead> = table header
+<tbody> = table body
+<th> = table header
+
+* contoh table kompleks :
+
+<table>
+<thead>
+<tr>
+	<th>head</th>
+	<th>head satu</th>
+	<th>head dua</th>
+<tr>
+</thead>
+<tbody>
+<tr>
+	<th>head satu</th>
+	<td>baris satu, kolom satu</td>
+	<td>barissatu, kolom dua </td>
+</tr>
+<tr>
+	<th>head dua</th>
+	<td>baris dua, kolom satu</td>
+	<td>baris dua, kolom dua</td>
+</tr>
+</tbody>
+</table>
+
+* attribute pada table :
+
+<table></table> :
+- border
+- cellspacing
+- cellpadding
+- colspan
+- rowspan 
+

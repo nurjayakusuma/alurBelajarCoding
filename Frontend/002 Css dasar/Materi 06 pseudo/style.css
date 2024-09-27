@@ -1,0 +1,25 @@
+/* style css */
+
+.hello:link {
+    color: brown;
+}
+
+.hello:hover {
+    color: palevioletred;
+}
+
+.hello:active {
+    color: blueviolet;
+}
+
+.hello:visited {
+    color: bisque;
+} 
+
+li:nth-child(2n+1) a {
+    color: rgb(0, 255, 89);
+}
+
+p:first-of-type {
+    color: greenyellow;
+}

@@ -1,0 +1,33 @@
+# Padding!
+  merupakan Jarak bagian dalam content dengan elemen div / pembungkusnya
+
+* padding value :
+
+- padding = untuk mengatur padding semua sisi
+- padding-left = untuk mengatur padding sisi kiri
+- padding-top = untuk mengatur padding sisi atas
+- padding-bottom = untuk mengatur padding sisi Bawah
+- padding-right = untuk mengatur padding sisi kanan
+
+* contoh : div { padding = 20px 20px 20px 20px; }
+
+"" padding tidak dapat diberi nilai negative
+"" padding tidak memiliki nilai auto
+
+# border!
+  merupakan garis tepi bagian elemen pembungkus
+
+* border value :
+- border-width = untuk mengatur ukuran border : value = px
+- border-style = untuk mengatur jenis / model border : value = solid (normal), dotted ( titik"), dashed (garis putus), double (garis dua)
+- border-color = untuk mengatur warna border
+
+* implementasi shorthand : div { border: width style color; }
+
+* contoh : div { border: 2px solid black; }
+
+# box-sizing!
+  untuk mempertahankan lebar kotak
+
+* attribute "box-sizing: border-box;"
+

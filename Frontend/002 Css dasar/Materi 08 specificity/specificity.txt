@@ -1,0 +1,15 @@
+# Specificity!
+setiap deklarasi css (selector) memiliki berat yang berbeda. berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector.
+
+by.http://www.smashingmagazine.com/2010/04/07css-specificity-and-inheritance/
+
+# perbandingan selector nilai / value :
+
+- elemen = 1
+- class = 10
+- id = 100
+- inline = 1000
+
+'
+"" kalkulator specificity 
+* http://specificity.keegan.st

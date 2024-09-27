@@ -1,0 +1,40 @@
+#background style! 
+
+"" website background image stock : http://www.subtlepatterns.com
+
+* background attribute :
+
+- background-color = untuk mengatur warna pda background
+- background-image = untuk mengatur gambar pada background
+- background-position = untuk mengatur posisi gambar pada background
+- background-repeat = untuk mengatur jenis pengulangan gambar pada background
+
+# background-color = value : color;
+
+* contoh :
+
+- body { background-color: white; }
+
+# background-image = value : url(nama gambar);
+
+* contoh :
+
+- body { background-image: url(gambar.png); }
+
+# background-repeat = value : round, repeat, repeat-y, repeat-x & no-repeat
+
+* contoh :
+
+- body { background-repeat: no-repeat; }
+
+# background-position = value : top, right, bottom, left
+
+* contoh :
+
+- body { background-position: bottom; }
+
+"" penyederhana'an syntax :
+
+- body { background: color image-url() position repeat; }
+
+= body { background: white url(image.png) bottom no-repeat; }

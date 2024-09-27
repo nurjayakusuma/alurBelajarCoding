@@ -1,0 +1,23 @@
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f666f6;
+    text-decoration: line-through;
+}
+
+h2 {
+    font-family: arial;
+    font-weight: none;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+p {
+    text-indent: 50px;
+    letter-spacing: nolmal;
+    word-spacing: 30px;
+}
+
+a {
+    text-decoration: none;
+}

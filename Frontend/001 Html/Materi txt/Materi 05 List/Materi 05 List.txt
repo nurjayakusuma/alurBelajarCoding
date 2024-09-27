@@ -1,0 +1,38 @@
+#tag list:
+ul & ol
+
+<ol> = ordered list/ list terurut
+<ul> = unordered list/ list tidak terurut
+<li> = list item
+
+* disetiap list, didalamnya terdapat list item (<li>), untuk mengindentifikasi stiap item di dalamnya.
+
+* contoh list terurut 
+<ol>
+	<li>list 1</li>
+	<li>list 2</li>
+</ol>
+
+- pada bagian list terurut memiliki satuan type (1, A, a, I, i)
+* contoh :
+<ol type="A">
+
+A. list 1
+B. list 2
+C. list 3
+
+* contoh list tidak terurut 
+<ul>
+	<li>list 1</li>
+	<li>list 2</li>
+</ul>
+
+- pada bagian list tidak terurut memiliki satuan type (disc, square, circle)
+
+ * Contoh Description list
+
+<dl>
+	<dt></dt>
+	<dd>/<dd>
+</dl>
+

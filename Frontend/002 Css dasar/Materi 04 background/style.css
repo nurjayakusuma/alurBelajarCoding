@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(3.4.jpg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: top right;
+}
+
+h1 {
+    font-family: arial;
+    color: lightblue;
+}
